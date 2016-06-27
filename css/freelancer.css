@@ -220,7 +220,7 @@ section.success a.active {
   color: white;
   font-size: 20px;
   border: solid 2px #e6e6e6;
-  background: #f2f2f2;
+  background: transparent;
   transition: all 0.3s ease-in-out;
   margin-top: 15px;
 }
@@ -228,6 +228,22 @@ section.success a.active {
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
+  color: #18bc9c;
+  background: white;
+  border: solid 2px #2c3e50;
+}
+.download-btn-outline {
+  color: white;
+  font-size: 20px;
+  border: solid 2px #e6e6e6;
+  background: #f2f2f2;
+  transition: all 0.3s ease-in-out;
+  margin-top: 15px;
+}
+.download-btn-outline:hover,
+.download-btn-outline:focus,
+.download-btn-outline:active,
+.download-btn-outline.active {
   color: #18bc9c;
   background: #f2f2f2;
   border: solid 2px #2c3e50;
